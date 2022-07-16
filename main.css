@@ -1,0 +1,70 @@
+#header {
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 3rem;
+    align-content: center;
+}
+
+#logo { 
+    float: left;
+}
+
+#park-areas h2{text-align: center;}
+#park-areas h3{text-align: center;}
+
+#main {
+    background-color:#F2F2F2;
+}
+
+#footer {
+    background-color: #D9D9D9;
+    padding: 3rem;
+    margin-top: 1rem;
+}
+
+#side-footer {
+    display: flex; flex-direction: row;
+    float: right;
+}
+
+#guest-list {
+   border: solid black 4px;
+   background-color: white;
+    padding: 1rem;
+    margin: 5rem 1rem 1rem 1rem;
+    float: right;
+    width: 25%;
+    text-align:justify;
+    align-content: center;
+}
+
+#guest-list h2 {
+    text-align: center;
+}
+
+#guest-list li {
+    display: flex; align-content: center;
+    padding: 1.2rem;
+}
+
+.guestName {
+    line-height: 200%;
+}
+
+.park-card {
+    background-color: white;
+    width: 15rem;
+    height: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+.park-card h2 {
+    text-align: center;
+}
+
+.list-of-park-areas {
+    background-color: #D9D9D9;
+    padding: 2rem;
+    display: flex; 
+    flex-flow: wrap;
+}
